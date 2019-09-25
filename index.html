@@ -6,21 +6,35 @@
     <title>De Bekappes Kappers winkel - Home</title>
   </head>
   <body>
-    <nav role="navigation">
-      <div class="HeaderNav">
-            <input type="checkbox"/>
-            <span></span>
-            <span></span>
-            <span></span>
-            <ul id="menu">
-              <a href="index.html"><li>Hoofd Pagina</li></a>
-              <a href="invoerpagina.html" target="_blank"><li>invoer pagina</li></a>
-            </ul>
+    <header>
+      <nav role="navigation">
+        <div class="HeaderNav">
+              <input type="checkbox"/>
+              <span></span>
+              <span></span>
+              <span></span>
+              <ul id="menu">
+                <a href="index.html"><li>Hoofd Pagina</li></a>
+                <a href="invoerpagina.html" target="_blank"><li>invoer pagina</li></a>
+              </ul>
+        </div>
+      </nav>
+
+      <div id="HeaderText">
+        <!-- IDEA: deze velden moeten naast het burger menu staan -->
+        <h1>De Bekappers - Kappers Winkel</h1>
+        <img src="img\sccpre.cat-barber-scissors-png-54738.png" alt="Een afbeelding van een schaar en kam" style="float: right; width: 100px;">
       </div>
-    </nav>
-    <div id="HeaderText">
-      <h1>De Bekappers - Kappers Winkel</h1>
-      <img src="img\sccpre.cat-barber-scissors-png-54738.png" alt="Een afbeelding van een schaar en kam" style="float: right; width: 100px;">
+    </header>
+    <div class="inloggegevens">
+      <!-- deze afbeelding moet in het midden komen te staan -->
+      <img src="img\649603.png" alt="een afbeelding van een leeg poppetje" style="width: 200px;">
+      <h1>Voer uw inlog gegevens in:</h1>
+      <form class="inlogform" action="invoerpagina.html" method="post">
+          <input type="text" name="gebruikersnaam">
+          <br>  <!-- Hier moet meer padding tussen zitten -->
+          <input type="text" name="wachtwoord">
+      </form>
     </div>
   </body>
 </html>
