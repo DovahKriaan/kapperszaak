@@ -6,9 +6,10 @@
     <title>De Bekappes Kappers winkel - Home</title>
   </head>
   <body>
+    <header>
     <nav role="navigation">
       <div class="Header">
-        <header>
+
             <input type="checkbox"/>
             <span></span>
             <span></span>
@@ -17,8 +18,29 @@
               <a href="index.html" target="_blank"><li>Hoofd Pagina</li></a>
               <a href="invoerpagina.html"><li>Invoer Pagina</li></a>
             </ul>
-        </header>
+
       </div>
     </nav>
+      <div id="HeaderText">
+        <!-- IDEA: deze velden moeten naast het burger menu staan -->
+        <h1>De Bekappers - Kappers Winkel</h1>
+        <img src="img\sccpre.cat-barber-scissors-png-54738.png" alt="Een afbeelding van een schaar en kam" style="float: right; width: 100px;">
+      </div>
+    </header>
+    <div class="FormSection">
+      <h1>Wekom *admin naam*</h1>
+      <!-- IDEA: hier staat wat vooraf ingestelde css die je moet overkopiëren naar de externe css file -->
+      <form class="FormInvoer" action="" method="post">
+        <input type="submit" name="NieuweAfspraak" value="NieuweAfspraak">
+        <br>
+        <input type="text" name="NaamKlant" value="Naam">
+        <input type="text" name="AchternaamKlant" value="Achternaam">
+        <br>
+        <input type="tel" name="TelefoonKlant" value="Telefoon nummer klant">
+        <input type="text" name="EmailKlant" value="Email Klant">
+        <br>
+        <input type="checkbox" name="KapperAanwezig"style="vertical-align: middle;" <p>Is de kapper of kappster aanwezig?</p>
+      </form>
+    </div>
   </body>
 </html>
